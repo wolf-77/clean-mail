@@ -6,7 +6,7 @@ vector = joblib.load("vector.pkl")
 
 st.title('Spam Email Checker')
 
-st.write("Copy And Paste Your Email Here And ML Model Will Check It Is Spam Or Not.")
+st.write("Copy And Paste Your Email Here And ML Model Will Check Is It Spam Or Not.")
 
 email_text = st.text_area('Copy And Paste Your Email Here')
 
